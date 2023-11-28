@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net" modified="2023-11-28T21:07:32.818Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="UgG-JyMrq1vLPPPdD1xp" version="22.1.4" type="github">
+  <diagram name="Page-1" id="acaJbb7zJqNV8eMt_PW6">
+    <mxGraphModel dx="1265" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G17-dYgQhkp3kQGCCL7A-1" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=34;" parent="1" vertex="1">
+          <mxGeometry x="110" y="160" width="210" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="G17-dYgQhkp3kQGCCL7A-2" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=34;" parent="1" vertex="1">
+          <mxGeometry x="445" y="160" width="210" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="LZWB6dRQu0BiqoScPXUu-1" value="HGL" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="190" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZWB6dRQu0BiqoScPXUu-3" value="&lt;b&gt;Dataverse&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
