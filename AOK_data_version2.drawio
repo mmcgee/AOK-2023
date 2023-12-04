@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T20:23:02.109Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="CWQg7v-Hu2Wuqe31bJCK" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-04T20:33:08.076Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="dcv8zXcNNG35x-fw0ak2" version="22.1.5" type="github">
   <diagram name="Page-1" id="acaJbb7zJqNV8eMt_PW6">
     <mxGraphModel dx="1004" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -24,18 +24,6 @@
         </mxCell>
         <mxCell id="ZmtUY7Tz9JFkTJYe3sri-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="350" width="90" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ZmtUY7Tz9JFkTJYe3sri-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZmtUY7Tz9JFkTJYe3sri-3" target="ZmtUY7Tz9JFkTJYe3sri-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="155" y="330" as="sourcePoint" />
-            <mxPoint x="205" y="280" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZmtUY7Tz9JFkTJYe3sri-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZmtUY7Tz9JFkTJYe3sri-2" target="ZmtUY7Tz9JFkTJYe3sri-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="270" y="350" as="sourcePoint" />
-            <mxPoint x="310" y="300" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="ZmtUY7Tz9JFkTJYe3sri-7" value="Undoing Empires&lt;br&gt;collection record" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="166.25" y="256.25" width="97.5" height="47.5" as="geometry" />
@@ -140,6 +128,18 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="115" y="500" as="sourcePoint" />
             <mxPoint x="325" y="626" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NQXHV1okiRd1N2RWz7d6-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZmtUY7Tz9JFkTJYe3sri-3" target="ZmtUY7Tz9JFkTJYe3sri-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="347" as="sourcePoint" />
+            <mxPoint x="190.625" y="310.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NQXHV1okiRd1N2RWz7d6-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZmtUY7Tz9JFkTJYe3sri-2" target="ZmtUY7Tz9JFkTJYe3sri-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="257.98" y="348.02" as="sourcePoint" />
+            <mxPoint x="250" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
