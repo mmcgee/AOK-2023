@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>O'Neill, Kelly</origin>
+				<origin>Gasparyan, Davit</origin>
+				<origin>Kiyan, Olga</origin>
+				<origin>Erlon-Baurjan, Jackie</origin>
+				<pubdate>20231101</pubdate>
+				<title>xxx_Feature type_xxx, History of Plants in Odessa, Ukraine, 1890-1891</title>
+				<geoform>vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Cambridge, Massachusetts</pubplace>
+					<publish>Harvard University. The Imperiia Project.</publish>
+				</pubinfo>
+				<onlink>https://hgl.harvard.edu/catalog/harvard-</onlink>
+				<lworkcit>
+					<citeinfo>
+						<origin>O'Neill, Kelly</origin>
+						<origin>Gasparyan, Davit</origin>
+						<origin>Kiyan, Olga</origin>
+						<origin>Erlon-Baurjan, Jackie</origin>
+						<pubdate>20231101</pubdate>
+						<title>History of Plants in Odessa</title>
+						<edition>First ed.</edition>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<pubplace>Cambridge, Massachusetts</pubplace>
+							<publish>Harvard University. The Imperiia Project.</publish>
+						</pubinfo>
+						<onlink>https://hgl.harvard.edu/catalog/harvard-</onlink>
+					</citeinfo>
+				</lworkcit>
+			</citeinfo>
+		</citation>
+		<spdom>
+		</spdom>
+		<descript>
+			<abstract>This data layer represents xxx_Feature_types_xxx in the Odessa (Ukraine) region in the 1890s. This data set was produced as part of the History of Plants In Odessa project, a historical dataset collection describing the scientific observation of plant species in the region around Odessa in the late 19th century. The geospatial data files were produced as part of The Imperiia Project: A Spatial History of the Russian Empire, data model by Kelly O'Neill, Harvard University with Davit Gasparyan, Olga Kiyan, Jackie Erlon-Baurjan (data contributors). For more information please see: The Imperiia Project https://imperiia.omeka.fas.harvard.edu/</abstract>
+			<purpose>Dataset for use with GIS software. The purpose of the History of Plants In Odessa project was to enhance and make an original contribution to knowledge of the history of biodiversity in the former Russian Empire and modern Ukraine. The project also aimed to provide a model for describing plant habitats and other non settlements, other geographical features that are not simply settlements or rivers. The project is also intended to provide a model for creating GIS data out of historical sources. The aim was to make the original primary source material more usable by ascribing a set of thematic keywords and developing the data as a relational data model, in order to make querying and filtering easier. </purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>1890</begdate>
+					<enddate>1891</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Categories</themekt>
+				<themekey>biota</themekey>
+			</theme>
+			<theme>
+				<themekt>LCSH</themekt>
+				<themekey>Plants</themekey>
+				<themekey>Biodiversity</themekey>
+				<themekey>Plants Habitat</themekey>
+				<themekey>Habitat (Ecology)</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Botany</themekey>
+				<themekey>History of Science</themekey>
+				<themekey>Empire</themekey>
+				<themekey>Imperial History</themekey>
+				<themekey>Russian Empire</themekey>
+				<themekey>Biodiversity</themekey>
+				<themekey>Plants</themekey>
+			</theme>
+			<place>
+				<placekt>LCSH</placekt>
+				<placekey>Odesʹka oblastʹ (Ukraine)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Odessa province</placekey>
+				<placekey>Odessa Oblast</placekey>
+				<placekey>Black Sea</placekey>
+				<placekey>Ukraine</placekey>
+				<placekey>Russian Empire</placekey>
+			</place>
+		</keywords>
+		<accconst>No restrictions on access.</accconst>
+		<useconst>For educational non-commercial use only. This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License, CC BY-NC-SA 4.0 DEED (https://creativecommons.org/licenses/by-nc-sa/4.0/) </useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Imperiia Project</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Davis Center for Russian and Eurasian Studies</address>
+					<address>Harvard University</address>
+					<address>1730 Cambridge Street, 3rd Floor</address>
+					<city>Cambridge</city>
+					<state>MA</state>
+					<postal>02138</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>617-495-4037</cntvoice>
+				<cntemail>imperiia@fas.harvard.edu</cntemail>
+				<hours>Regular business hours are 9 a.m.–5 p.m. Monday through Friday</hours>
+			</cntinfo>
+		</ptcontac>
+		<native>xxx_software used to create spatial data_xxx</native>
+		<crossref>
+			<citeinfo>
+				<origin>O'Neill, Kelly</origin>
+				<pubdate>2023</pubdate>
+				<title>The Imperiia Project</title>
+				<geoform>digital data</geoform>
+				<pubinfo>
+					<pubplace>Cambridge, Massachusetts</pubplace>
+					<publish>Harvard University. Davis Center for Russian and Eurasian Studies</publish>
+				</pubinfo>
+				<onlink>https://imperiia.omeka.fas.harvard.edu/</onlink>
+			</citeinfo>
+		</crossref>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Unknown</attraccr>
+		</attracc>
+		<logic>Unknown</logic>
+		<complete>Unknown</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Unknown</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Shesterikov, P. S. (Petr Stepanovich)</origin>
+						<pubdate>1894</pubdate>
+						<title>Materialy dl︠i︡a flory ︠i︡ugo-zapadnoĭ chasti Odesskago uieda, Khersonsʹkoï guberniï = Material for a flora of the southwestern part of Odessa district</title>
+						<geoform>book</geoform>
+						<pubinfo>
+							<pubplace>Odessa</pubplace>
+							<publish>Typ. A. Shud'khe</publish>
+						</pubinfo>
+						<onlink>https://id.lib.harvard.edu/alma/990063817950203941/catalog</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>Unknown</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1890</begdate>
+							<enddate>1891</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>specimens</srccitea>
+				<srccontr>Specimen data source</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>forthcoming</origin>
+						<pubdate>1894</pubdate>
+						<title>1894 map of Odessa</title>
+						<geoform>map</geoform>
+						<pubinfo>
+							<pubplace>forthcoming</pubplace>
+							<publish>forthcoming</publish>
+						</pubinfo>
+						<onlink></onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>Unknown</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1894</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>odessa map</srccitea>
+				<srccontr>Spatial referencing data source. Used for locating neighborhoods and plantations around Odessa.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>forthcoming</origin>
+						<pubdate>1860-1880</pubdate>
+						<title>Russian Military topographical survey maps of European Russia</title>
+						<geoform>map</geoform>
+						<pubinfo>
+							<pubplace>forthcoming</pubplace>
+							<publish>forthcoming</publish>
+						</pubinfo>
+						<onlink></onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>Unknown</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1860</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>military topo maps</srccitea>
+				<srccontr>Spatial referencing data source. Used for locating natural features (e.g. snady areas and ravines) around Odessa.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>GeoNames</origin>
+						<pubdate>2023</pubdate>
+						<title>GeoNames</title>
+						<geoform>digital data</geoform>
+						<pubinfo>
+							<pubplace>St. Gallen, Switzerland</pubplace>
+							<publish>Unxos GmbH</publish>
+						</pubinfo>
+						<onlink>https://www.geonames.org/</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>Unknown</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2023</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>access date</srccurr>
+				</srctime>
+				<srccitea>geonames</srccitea>
+				<srccontr>Spatial referencing data source.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>OpenStreetMap Foundation</origin>
+						<pubdate>2023</pubdate>
+						<title>OpenStreetMap</title>
+						<geoform>digital data</geoform>
+						<pubinfo>
+							<pubplace>Cambridge, United Kingdom</pubplace>
+							<publish>OpenStreetMap Foundation</publish>
+						</pubinfo>
+						<onlink>https://www.openstreetmap.org/</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>Unknown</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2023</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>access date</srccurr>
+				</srctime>
+				<srccitea>openstreetmap</srccitea>
+				<srccontr>Spatial referencing data source.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>This data is sourced </procdesc>
+				<srcused>specimens</srcused>
+				<srcused>odessa map</srcused>
+				<srcused>military topo maps</srcused>
+				<srcused>geonames</srcused>
+				<srcused>openstreetmap</srcused>
+				<procdate>2023</procdate>
+				<srcprod>xxx_feature_type_xxx data</srcprod>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>The Imperiia Project</cntorg>
+						</cntorgp>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>Davis Center for Russian and Eurasian Studies</address>
+							<address>Harvard University</address>
+							<address>1730 Cambridge Street, 3rd Floor</address>
+							<city>Cambridge</city>
+							<state>MA</state>
+							<postal>02138</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>617-495-4037</cntvoice>
+						<cntemail>daviscenter@fas.harvard.edu</cntemail>
+						<hours>Regular business hours are 9 a.m.–5 p.m. Monday through Friday</hours>
+					</cntinfo>
+				</proccont>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Harvard University Information Technology</cntorg>
+				</cntorgp>
+				<cntpos>Harvard Geospatial Library</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Library Technology Services</address>
+					<address>90 Mount Auburn Street</address>
+					<city>Cambridge</city>
+					<state>MA</state>
+					<postal>02138</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>617-495-2417</cntvoice>
+				<cntfax>617-496-0440</cntfax>
+				<cntemail>hgladmin@fas.harvard.edu</cntemail>
+				<hours>Monday - Friday, 9:00 am - 4:00 pm EST-USA</hours>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>Although this data set has been developed by Harvard University, no warranty
+			expressed or implied is made by the University as to the accuracy of the data and
+			related materials. The act of distribution shall not constitute any such warranty, and
+			no responsibility is assumed by the University in the use of this data, or related
+			materials.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>Shapefile</formname>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://hgl.harvard.edu/</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>None</fees>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20231101</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Harvard Geospatial Library</cntorg>
+				</cntorgp>
+				<cntpos>Geospatial Metadata Librarian</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Harvard University Information Technology</address>
+					<address>Library Technology Services</address>
+					<address>90 Mount Auburn Street</address>
+					<city>Cambridge</city>
+					<state>MA</state>
+					<postal>02138</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>617-495-2417</cntvoice>
+				<cntfax>617-496-0440</cntfax>
+				<cntemail>hgladmin@fas.harvard.edu</cntemail>
+				<hours>Monday - Friday, 9:00 am - 4:00 pm EST-USA</hours>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+	</metainfo>
+</metadata>
