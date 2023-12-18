@@ -15,7 +15,7 @@
 					<pubplace>Cambridge, Massachusetts</pubplace>
 					<publish>Harvard University. The Imperiia Project.</publish>
 				</pubinfo>
-				<onlink>https://hgl.harvard.edu/catalog/harvard-</onlink>
+				<onlink>https://hgl.harvard.edu/catalog/harvard-imperiia-odessa-flora-sites-polygons</onlink>
 				<lworkcit>
 					<citeinfo>
 						<origin>O'Neill, Kelly</origin>
@@ -30,15 +30,13 @@
 							<pubplace>Cambridge, Massachusetts</pubplace>
 							<publish>Harvard University. The Imperiia Project.</publish>
 						</pubinfo>
-						<onlink>https://hgl.harvard.edu/catalog/harvard-</onlink>
+						<onlink>https://hgl.harvard.edu/catalog/harvard-imperiia-undoing-empire-odessa-biodiversity</onlink>
 					</citeinfo>
 				</lworkcit>
 			</citeinfo>
 		</citation>
-		<spdom>
-		</spdom>
 		<descript>
-			<abstract>This data layer represents xxx_Feature_types_xxx in the Odessa (Ukraine) region in the 1890s. This data set was produced as part of the History of Plants In Odessa project, a historical dataset collection describing the scientific observation of plant species in the region around Odessa in the late 19th century. The geospatial data files were produced as part of The Imperiia Project: A Spatial History of the Russian Empire, data model by Kelly O'Neill, Harvard University with Davit Gasparyan, Olga Kiyan, Jackie Erlon-Baurjan (data contributors). For more information please see: The Imperiia Project https://imperiia.omeka.fas.harvard.edu/</abstract>
+			<abstract>This data layer represents flora observations sites polygons in the Odessa (Ukraine) region in the 1890s. This data set was produced as part of the History of Plants In Odessa project, a historical dataset collection describing the scientific observation of plant species in the region around Odessa in the late 19th century. The geospatial data files were produced as part of The Imperiia Project: A Spatial History of the Russian Empire, data model by Kelly O'Neill, Harvard University with Davit Gasparyan, Olga Kiyan, Jackie Erlon-Baurjan (data contributors). For more information please see: The Imperiia Project https://imperiia.omeka.fas.harvard.edu/</abstract>
 			<purpose>Dataset for use with GIS software. The purpose of the History of Plants In Odessa project was to enhance and make an original contribution to knowledge of the history of biodiversity in the former Russian Empire and modern Ukraine. The project also aimed to provide a model for describing plant habitats and other non settlements, other geographical features that are not simply settlements or rivers. The project is also intended to provide a model for creating GIS data out of historical sources. The aim was to make the original primary source material more usable by ascribing a set of thematic keywords and developing the data as a relational data model, in order to make querying and filtering easier. </purpose>
 		</descript>
 		<timeperd>
@@ -54,6 +52,14 @@
 			<progress>Complete</progress>
 			<update>None planned</update>
 		</status>
+		<spdom>
+          <bounding>
+            <westbc>23.602921</westbc>
+            <eastbc>50.625743</eastbc>
+            <northbc>52.091013</northbc>
+            <southbc>38.392645</southbc>
+         </bounding>
+        </spdom>
 		<keywords>
 			<theme>
 				<themekt>ISO 19115 Topic Categories</themekt>
@@ -306,6 +312,141 @@
 			</procstep>
 		</lineage>
 	</dataqual>
+	<spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>3325</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000006714873101998366</absres>
+            <ordres>0.000000006714873101998366</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>flora_sites_polygons_plant-observations</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>igazID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>toponym</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>src_tpnm</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>mdrn_tpnm</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>tpnm_chrn</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>tpnm_cnfd</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>class</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>roll</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>vctr_type</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>vctr_src</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>vctr_note</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>vctr_hist</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>geon_id</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>osm_id</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>area_sqkm</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>list_n</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>phyt_lt</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>phyt_comm</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>prevln</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>grwth_typ</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>habitat</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>method</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
 	<distinfo>
 		<distrib>
 			<cntinfo>
