@@ -367,70 +367,180 @@
       </attr>
       <attr>
         <attrlabl>igazid</attrlabl>
-      </attr>
-      <attr>
+        <attrdef>Imperiia gazetteer identifier. unique identifier used to enable relational database work. ascribed to source material by research team</attrdef>
+        <attrdefs>Harvard University.The Imperiia Project</attrdefs>
+        <attrdomv>
+            <udom>number</udom>
+        </attrdomv>
+    </attr>
+    <attr>
         <attrlabl>toponym</attrlabl>
-      </attr>
-      <attr>
+        <attrdef>toponym. placename rendered in English transliteration. ascribed to source material by research team</attrdef>
+        <attrdefs>Harvard University.The Imperiia Project</attrdefs>
+        <attrdomv>
+            <udom>string</udom>
+        </attrdomv>
+    </attr>
+    <attr>
         <attrlabl>src_tpnm</attrlabl>
-      </attr>
-      <attr>
+        <attrdef>source toponym. placename as given in the primary source (usually in Russian). extracted from primary source</attrdef>
+        <attrdefs>Harvard University.The Imperiia Project</attrdefs>
+        <attrdomv>
+            <udom>string</udom>
+        </attrdomv>
+    </attr>
+    <attr>
         <attrlabl>mdrn_tpnm</attrlabl>
-      </attr>
-      <attr>
+        <attrdef>modern toponym. placename as given in modern gazetteers, in local language (usually Ukrainian). ascribed to source material by research team</attrdef>
+        <attrdefs>Harvard University.The Imperiia Project</attrdefs>
+        <attrdomv>
+            <udom>string</udom>
+        </attrdomv>
+    </attr>
+    <attr>
         <attrlabl>tpnm_chrn</attrlabl>
-      </attr>
-      <attr>
+        <attrdef>toponym chronology. classification of toponymical continuity. ascribed to source material by research team</attrdef>
+        <attrdefs>Harvard University.The Imperiia Project</attrdefs>
+        <attrdomv>
+            <udom>string</udom>
+        </attrdomv>
+    </attr>
+    <attr>
         <attrlabl>tpnm_cnfd</attrlabl>
-      </attr>
-      <attr>
+        <attrdef>toponym confidence. classification: confidence with which we matched the source toponym to modern equivalent. ascribed to source material by research team</attrdef>
+        <attrdefs>Harvard University.The Imperiia Project</attrdefs>
+        <attrdomv>
+            <udom>string</udom>
+        </attrdomv>
+    </attr>
+    <attr>
         <attrlabl>class</attrlabl>
-      </attr>
-      <attr>
+        <attrdef>class. name of geographical feature. ascribed to source material by research team</attrdef>
+        <attrdefs>Harvard University.The Imperiia Project</attrdefs>
+        <attrdomv>
+            <udom>string</udom>
+        </attrdomv>
+    </attr>
+    <attr>
         <attrlabl>roll</attrlabl>
-      </attr>
-      <attr>
+        <attrdef>roll. classification: relevance/proximity of location to the research area as defined by Shesterikov. ascribed to source material by research team</attrdef>
+        <attrdefs>Harvard University.The Imperiia Project</attrdefs>
+        <attrdomv>
+            <udom>string</udom>
+        </attrdomv>
+    </attr>
+    <attr>
         <attrlabl>vctr_type</attrlabl>
-      </attr>
-      <attr>
+        <attrdef>vector type. classification: type of vector geometry (line, polygon, bounding box). ascribed to source material by research team</attrdef>
+        <attrdefs>Harvard University.The Imperiia Project</attrdefs>
+        <attrdomv>
+            <udom>string</udom>
+        </attrdomv>
+    </attr>
+    <attr>
         <attrlabl>vctr_src</attrlabl>
-      </attr>
-      <attr>
+        <attrdef>vector source. main source of vector geometry. ascribed to source material by research team</attrdef>
+        <attrdefs>Harvard University.The Imperiia Project</attrdefs>
+        <attrdomv>
+            <udom>string</udom>
+        </attrdomv>
+    </attr>
+    <attr>
         <attrlabl>vctr_note</attrlabl>
-      </attr>
-      <attr>
+        <attrdef>vector note. explanation of work done to produce vector geometry. ascribed to source material by research team</attrdef>
+        <attrdefs>Harvard University.The Imperiia Project</attrdefs>
+        <attrdomv>
+            <udom>string</udom>
+        </attrdomv>
+    </attr>
+    <attr>
         <attrlabl>geon_id</attrlabl>
-      </attr>
-      <attr>
+        <attrdef>Geonames identifier. URL of gazetteer entry. ascribed to source material by research team</attrdef>
+        <attrdefs>Harvard University.The Imperiia Project</attrdefs>
+        <attrdomv>
+            <udom>URL</udom>
+        </attrdomv>
+    </attr>
+    <attr>
         <attrlabl>osm_id</attrlabl>
-      </attr>
-      <attr>
+        <attrdef>OpenStreetMap identifier. URL of gazetteer entry. ascribed to source material by research team</attrdef>
+        <attrdefs>Harvard University.The Imperiia Project</attrdefs>
+        <attrdomv>
+            <udom>URL</udom>
+        </attrdomv>
+    </attr>
+    <attr>
         <attrlabl>length_km</attrlabl>
-      </attr>
-      <attr>
+        <attrdef>length in kilometers. line length calculated in kilometers. ascribed to source material by research team</attrdef>
+        <attrdefs>Harvard University.The Imperiia Project</attrdefs>
+        <attrdomv>
+            <udom>number</udom>
+        </attrdomv>
+    </attr>
+    <attr>
         <attrlabl>ID</attrlabl>
-      </attr>
-      <attr>
+        <attrdef>identifier. unique identifier automatically assigned by nodegoat. ascribed to source material by research team</attrdef>
+        <attrdefs>Harvard University.The Imperiia Project</attrdefs>
+        <attrdomv>
+            <udom>number</udom>
+        </attrdomv>
+    </attr>
+    <attr>
         <attrlabl>list_n</attrlabl>
-      </attr>
-      <attr>
+        <attrdef>list number. identification of individual entry in the flora in format [number designating family group].[number entry sequence number]. extracted from primary source</attrdef>
+        <attrdefs>Harvard University.The Imperiia Project</attrdefs>
+        <attrdomv>
+            <udom>number</udom>
+        </attrdomv>
+    </attr>
+    <attr>
         <attrlabl>phyt_lt</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>phyt_comm</attrlabl>
-      </attr>
-      <attr>
+        <attrdef>phytonym, latin. name of plant species. extracted from primary source</attrdef>
+        <attrdefs>Harvard University.The Imperiia Project</attrdefs>
+        <attrdomv>
+            <udom>string</udom>
+        </attrdomv>
+    </attr>
+    <attr>
+        <attrlabl>phyt_cmm</attrlabl>
+        <attrdef>phytonym, common. name of plant species, common English. ascribed to source material by research team</attrdef>
+        <attrdefs>Harvard University.The Imperiia Project</attrdefs>
+        <attrdomv>
+            <udom>string</udom>
+        </attrdomv>
+    </attr>
+    <attr>
         <attrlabl>prevln</attrlabl>
-      </attr>
-      <attr>
+        <attrdef>prevalence. indication of the relative prevalence of the species. extracted from primary source</attrdef>
+        <attrdefs>Harvard University.The Imperiia Project</attrdefs>
+        <attrdomv>
+            <udom>string</udom>
+        </attrdomv>
+    </attr>
+    <attr>
         <attrlabl>grwth_typ</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>habitat</attrlabl>
-      </attr>
-      <attr>
+        <attrdef>growth type. classification: wild, weed, aquatic, cultivated, invasive, parasitic, not specified. extracted from primary source</attrdef>
+        <attrdefs>Harvard University.The Imperiia Project</attrdefs>
+        <attrdomv>
+            <udom>string</udom>
+        </attrdomv>
+    </attr>
+    <attr>
+        <attrlabl>hbtat</attrlabl>
+        <attrdef>habitat. geographical term; corresponds with standard feature classes maintained by USGS et al. extracted from primary source</attrdef>
+        <attrdefs>Harvard University.The Imperiia Project</attrdefs>
+        <attrdomv>
+            <udom>string</udom>
+        </attrdomv>
+    </attr>
+    <attr>
         <attrlabl>method</attrlabl>
-      </attr>
+        <attrdef>method. classification of plant observation as direct (by Shesterikov) or indirect (Shesterikov reporting on work of other botanists). extracted from primary source</attrdef>
+        <attrdefs>Harvard University.The Imperiia Project</attrdefs>
+        <attrdomv>
+            <udom>string</udom>
+        </attrdomv>
+    </attr>
     </detailed>
     </eainfo>
 	<distinfo>
