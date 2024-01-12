@@ -36,7 +36,7 @@
 			</citeinfo>
 		</citation>
 		<descript>
-			<abstract>This data layer represents flora observations sites lines in the Odessa (Ukraine) region in the 1890s. This data set was produced as part of the History of Plants In Odessa project, a historical dataset collection describing the scientific observation of plant species in the region around Odessa in the late 19th century. The geospatial data files were produced as part of <a href='https://imperiia.omeka.fas.harvard.edu/'>The Imperiia Project</a>: A Spatial History of the Russian Empire, data model by Kelly O'Neill, Harvard University with Davit Gasparyan, Olga Kiyan, Jackie Erlon-Baurjan (data contributors). For more information please see: <a href='https://demo.dataverse.org/file.xhtml?fileId=2113045&amp;version=DRAFT'>Undoing Empire project readme</a></abstract>
+			<abstract>This data layer represents flora observations sites lines in the Odessa (Ukraine) region in the 1890s. This data set was produced as part of the History of Plants In Odessa project, a historical dataset collection describing the scientific observation of plant species in the region around Odessa in the late 19th century. The geospatial data files were produced as part of The Imperiia Project: A Spatial History of the Russian Empire, data model by Kelly O'Neill, Harvard University with Davit Gasparyan, Olga Kiyan, Jackie Erlon-Baurjan (data contributors). For more information please see: Undoing Empire project readme (<a href='https://demo.dataverse.org/file.xhtml?fileId=2113045&amp;version=DRAFT'>https://demo.dataverse.org/file.xhtml?fileId=2113045&amp;version=DRAFT</a>).</abstract>
 			<purpose>Dataset for use with GIS software. The purpose of the History of Plants In Odessa project was to enhance and make an original contribution to knowledge of the history of biodiversity in the former Russian Empire and modern Ukraine. The project also aimed to provide a model for describing plant habitats and other non settlements, other geographical features that are not simply settlements or rivers. The project is also intended to provide a model for creating GIS data out of historical sources. The aim was to make the original primary source material more usable by ascribing a set of thematic keywords and developing the data as a relational data model, in order to make querying and filtering easier. </purpose>
 		</descript>
 		<timeperd>
@@ -281,7 +281,26 @@
 				<srccontr>Spatial referencing data source.</srccontr>
 			</srcinfo>
 			<procstep>
-				<procdesc>This data is sourced </procdesc>
+				<procdesc>Data Familiarization and Attribute Identification: The initial step involved acquainting ourselves with the structure of plant observations in the primary source and identifying various attributes of each plant suitable for isolation and inclusion in the dataset.
+
+				Data Recording Platform Selection: We opted to utilize the web-based platform NodeGoat for the recording and management of all data.
+
+				Iterative Data Model Development: Data creation was characterized by its non-linear nature, and we continuously iterated on the data model throughout the project's duration.
+
+				Cross-Referencing with GBIF: Every plant within the dataset was cross-referenced with the Global Biodiversity Information Facility (GBIF) to ensure the accuracy of plant name recordings.
+
+				Maintenance of Original Spelling: The original spelling from the source was retained without editing, although any discrepancies were recorded. The primary source of discrepancies was mainly in the assignment of plant families due to evolving botanical classifications over time.
+
+				Source Structure: The source was more akin to a diary than tabular data. It primarily included Latin plant names, descriptions of plant habitats, observations from various botanists, and critical commentary.
+
+				Inconsistent Date Recording: Date information, while provided for most observations, was not consistently recorded as it was not the primary focus. The primary focus was on mapping the plant's geographical locations.
+
+				Translation of 19th Century Russian Source: Given that the source was in 19th-century-style Russian, translation was necessary. The process involved collaborative efforts with graduate students and occasional corrections of archaic terms.
+
+				Educational Motivation: In addition to creating the resource, the project served as an educational opportunity for data creators to learn historical Russian and engage with 18th and 19th-century source materials.
+
+				Spatial Data Handling: Spatial data encompassed historical places correlated with contemporary locations, historical places not found in modern gazetteers, and non-place location descriptions. Strategies for creating geographic data included referencing modern sources, relying on historical sources like maps, and defining polygons for non-named habitat areas.
+				</procdesc>
 				<srcused>specimens</srcused>
 				<srcused>odessa map</srcused>
 				<srcused>military topo maps</srcused>
